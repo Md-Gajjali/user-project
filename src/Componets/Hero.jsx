@@ -5,8 +5,8 @@ import ProfileCard from "./ProfileCard"
 const Hero = () => {
     const { user } = useContext(User)
   return (
-    <div className='container '>
-      <div className="flex  flex-wrap justify-between  ">
+    <div className='container mt-20'>
+      <div className="flex  flex-wrap lg:justify-between justify-center gap-5 ">
           {
             user.map((item,idx)=>{
                 return(

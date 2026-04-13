@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileCard = ({name ,work ,img}) => {
   return (
-    <div className='mt-30  '>
+    <div className='mt-10 '>
         <div className="relative  bg-neutral-primary-soft max-w-xs w-full p-6 border border-default rounded-base shadow-xs">
 
         <div id="dropdown" className="z-10 bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-36 block hidden">
@@ -21,7 +21,7 @@ const ProfileCard = ({name ,work ,img}) => {
         <div className="flex flex-col items-center">
             <img className="w-24 h-24 mb-6 rounded-full" src={img} alt="Bonnie image" />
             <h5 className="mb-0.5 text-xl font-semibold tracking-tight text-heading">{name}</h5>
-            <span className="text-sm text-body">{work}</span>
+            <span className="text-sm text-body dark:text-pink-300">{work}</span>
             <div className="flex mt-4 md:mt-6 gap-4">
             <button type="button" className="inline-flex items-center text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">
                 <svg className="w-4 h-4 me-1.5 -ms-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width={24} height={24} fill="none" viewBox="0 0 24 24"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12h4m-2 2v-4M4 18v-1a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Zm8-10a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg>
