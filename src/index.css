@@ -4,3 +4,8 @@
 
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+
+@utility container {
+  margin: auto;
+}
